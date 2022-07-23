@@ -1,0 +1,154 @@
+{
+    "sourceFile": "ui/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 34,
+            "patches": [
+                {
+                    "date": 1658567039723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658567223820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,10 @@\n \r\n body {\r\n   margin: 0;\r\n   padding: 0;\r\n+  box-sizing: border-box;\r\n+  font-family: 'Montserrat', sans-serif;\r\n }\r\n \r\n .logo {\r\n   margin: 30px 0 0 30px;\r\n"
+                },
+                {
+                    "date": 1658567558292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,13 @@\n   box-sizing: border-box;\r\n   font-family: 'Montserrat', sans-serif;\r\n }\r\n \r\n+.container {\r\n+  max-width: 1160px;\r\n+  margin: 0 auto;\r\n+}\r\n+\r\n .logo {\r\n   margin: 30px 0 0 30px;\r\n }\r\n .logo__icon {\r\n"
+                },
+                {
+                    "date": 1658567573580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,13 @@\n   font-family: 'Montserrat', sans-serif;\r\n }\r\n \r\n .container {\r\n+  display: grid;\r\n+  \r\n+  margin: 0 auto;\r\n   max-width: 1160px;\r\n-  margin: 0 auto;\r\n+  \r\n }\r\n \r\n .logo {\r\n   margin: 30px 0 0 30px;\r\n"
+                },
+                {
+                    "date": 1658567616426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n }\r\n \r\n .container {\r\n   display: grid;\r\n-  \r\n+  grid-template-columns: repeat(12, 1fr);\r\n   margin: 0 auto;\r\n   max-width: 1160px;\r\n   \r\n }\r\n"
+                },
+                {
+                    "date": 1658567711122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   --green: rgb(111, 207, 151);\r\n }\r\n \r\n body {\r\n+  position: relative;\r\n   margin: 0;\r\n   padding: 0;\r\n   box-sizing: border-box;\r\n   font-family: 'Montserrat', sans-serif;\r\n"
+                },
+                {
+                    "date": 1658567763825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,10 @@\n   max-width: 1160px;\r\n   \r\n }\r\n \r\n-.logo {\r\n+.colorsAndTypes__logo {\r\n+  position: absolute;\r\n   margin: 30px 0 0 30px;\r\n }\r\n .logo__icon {\r\n   fill: rgba(31, 32, 65, .25);\r\n"
+                },
+                {
+                    "date": 1658567795127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,10 @@\n }\r\n \r\n .colorsAndTypes__logo {\r\n   position: absolute;\r\n-  margin: 30px 0 0 30px;\r\n+  top: 30px;\r\n+  left: 30px;\r\n }\r\n .logo__icon {\r\n   fill: rgba(31, 32, 65, .25);\r\n }\r\n"
+                },
+                {
+                    "date": 1658567836574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,8 @@\n .logo__icon {\r\n   fill: rgba(31, 32, 65, .25);\r\n }\r\n \r\n-.colors {\r\n-  padding: 62px 0 0 150px;\r\n-}\r\n \r\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 1fr;\r\n"
+                },
+                {
+                    "date": 1658567890186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   display: grid;\r\n   grid-template-columns: repeat(12, 1fr);\r\n   margin: 0 auto;\r\n   max-width: 1160px;\r\n-  \r\n+  min-height: 900px;\r\n }\r\n \r\n .colorsAndTypes__logo {\r\n   position: absolute;\r\n"
+                },
+                {
+                    "date": 1658567969569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,12 @@\n   max-width: 1160px;\r\n   min-height: 900px;\r\n }\r\n \r\n+.colorsAndTypes .container {\r\n+  \r\n+}\r\n+\r\n .colorsAndTypes__logo {\r\n   position: absolute;\r\n   top: 30px;\r\n   left: 30px;\r\n"
+                },
+                {
+                    "date": 1658567989312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   min-height: 900px;\r\n }\r\n \r\n .colorsAndTypes .container {\r\n-  \r\n+  grid-row: 78px 1fr;\r\n }\r\n \r\n .colorsAndTypes__logo {\r\n   position: absolute;\r\n"
+                },
+                {
+                    "date": 1658568011369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   min-height: 900px;\r\n }\r\n \r\n .colorsAndTypes .container {\r\n-  grid-row: 78px 1fr;\r\n+  grid-template-rows: 78px 1fr;\r\n }\r\n \r\n .colorsAndTypes__logo {\r\n   position: absolute;\r\n"
+                },
+                {
+                    "date": 1658568079688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,12 @@\n .logo__icon {\r\n   fill: rgba(31, 32, 65, .25);\r\n }\r\n \r\n+.colors {\r\n+  grid-column: 1;\r\n+  grid-row: 2;\r\n+} \r\n \r\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 1fr;\r\n"
+                },
+                {
+                    "date": 1658568137231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   min-height: 900px;\r\n }\r\n \r\n .colorsAndTypes .container {\r\n-  grid-template-rows: 78px 1fr;\r\n+  grid-template-rows: 145px 1fr;\r\n }\r\n \r\n .colorsAndTypes__logo {\r\n   position: absolute;\r\n"
+                },
+                {
+                    "date": 1658568519925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n \r\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 1fr);\r\n+  column-gap: 20px;\r\n   margin: 0 auto;\r\n   max-width: 1160px;\r\n   min-height: 900px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658568653634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n }\r\n \r\n .container {\r\n   display: grid;\r\n-  grid-template-columns: repeat(12, 1fr);\r\n+  grid-template-columns: repeat(12, 96.67px);\r\n   column-gap: 20px;\r\n   margin: 0 auto;\r\n   max-width: 1160px;\r\n   min-height: 900px;\r\n"
+                },
+                {
+                    "date": 1658568701142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   fill: rgba(31, 32, 65, .25);\r\n }\r\n \r\n .colors {\r\n-  grid-column: 1;\r\n+  grid-column: 1/4;\r\n   grid-row: 2;\r\n } \r\n \r\n .colors__wrapper {\r\n"
+                },
+                {
+                    "date": 1658568742106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,14 +42,8 @@\n   grid-column: 1/4;\r\n   grid-row: 2;\r\n } \r\n \r\n-.colors__wrapper {\r\n-  display: grid;\r\n-  grid-template-columns: 70px 1fr;\r\n-  column-gap: 40px;\r\n-  row-gap: 20px;\r\n-}\r\n \r\n .colors__item {\r\n   width: 70px;\r\n   height: 70px;\r\n"
+                },
+                {
+                    "date": 1658568752786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,14 @@\n   grid-column: 1/4;\r\n   grid-row: 2;\r\n } \r\n \r\n+.colors__wrapper {\r\n+  display: grid;\r\n+  grid-template-columns: 70px 1fr;\r\n+  column-gap: 40px;\r\n+  row-gap: 20px;\r\n+}\r\n \r\n .colors__item {\r\n   width: 70px;\r\n   height: 70px;\r\n"
+                },
+                {
+                    "date": 1658568811307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n } \r\n \r\n .colors__wrapper {\r\n   display: grid;\r\n-  grid-template-columns: 70px 1fr;\r\n+  grid-template-columns: 70px 171px;\r\n   column-gap: 40px;\r\n   row-gap: 20px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658569091750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,9 @@\n \r\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n+  grid-template-rows: ;\r\n   column-gap: 40px;\r\n   row-gap: 20px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658569127555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \r\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n-  grid-template-rows: ;\r\n+  grid-template-rows: repeat(2, 27.79px);\r\n   column-gap: 40px;\r\n   row-gap: 20px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658569183349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,8 @@\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n   grid-template-rows: repeat(2, 27.79px);\r\n   column-gap: 40px;\r\n-  row-gap: 20px;\r\n }\r\n \r\n .colors__item {\r\n   width: 70px;\r\n"
+                },
+                {
+                    "date": 1658569201616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,9 @@\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n   grid-template-rows: repeat(2, 27.79px);\r\n   column-gap: 40px;\r\n+  margin-bottom: 20px;\r\n }\r\n \r\n .colors__item {\r\n   width: 70px;\r\n"
+                },
+                {
+                    "date": 1658569342646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,11 +45,10 @@\n \r\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n-  grid-template-rows: repeat(2, 27.79px);\r\n   column-gap: 40px;\r\n-  margin-bottom: 20px;\r\n+  row-gap: 70px;\r\n }\r\n \r\n .colors__item {\r\n   width: 70px;\r\n"
+                },
+                {
+                    "date": 1658569351151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n   column-gap: 40px;\r\n-  row-gap: 70px;\r\n+  row-gap: 20px;\r\n }\r\n \r\n .colors__item {\r\n   width: 70px;\r\n"
+                },
+                {
+                    "date": 1658569385488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,8 +78,9 @@\n   background-color: var(--green);\r\n }\r\n \r\n .colors__title {\r\n+  grid-column: 2;\r\n   font-size: 19px;\r\n   font-weight: 700;\r\n   line-height: 28px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658569400849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,7 +85,8 @@\n   line-height: 28px;\r\n }\r\n \r\n .colors__subtitle {\r\n+  grid-column: 2;\r\n   display: block;\r\n   font-weight: 400;\r\n }\r\n"
+                },
+                {
+                    "date": 1658569410415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,7 +86,6 @@\n }\r\n \r\n .colors__subtitle {\r\n   grid-column: 2;\r\n-  display: block;\r\n   font-weight: 400;\r\n }\r\n"
+                },
+                {
+                    "date": 1658569450191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,8 @@\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n   column-gap: 40px;\r\n-  row-gap: 20px;\r\n }\r\n \r\n .colors__item {\r\n   width: 70px;\r\n"
+                },
+                {
+                    "date": 1658569500147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,8 +46,9 @@\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n   column-gap: 40px;\r\n+  margin-bottom: 20px;\r\n }\r\n \r\n .colors__item {\r\n   width: 70px;\r\n"
+                },
+                {
+                    "date": 1658569535402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,9 @@\n \r\n .colors__wrapper {\r\n   display: grid;\r\n   grid-template-columns: 70px 171px;\r\n+  grid-template-rows: 70px;\r\n   column-gap: 40px;\r\n   margin-bottom: 20px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658569730888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,8 @@\n .colors__title {\r\n   grid-column: 2;\r\n   font-size: 19px;\r\n   font-weight: 700;\r\n-  line-height: 28px;\r\n }\r\n \r\n .colors__subtitle {\r\n   grid-column: 2;\r\n"
+                },
+                {
+                    "date": 1658569798176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,8 +82,9 @@\n .colors__title {\r\n   grid-column: 2;\r\n   font-size: 19px;\r\n   font-weight: 700;\r\n+  line-height: 28px;\r\n }\r\n \r\n .colors__subtitle {\r\n   grid-column: 2;\r\n"
+                }
+            ],
+            "date": 1658567039723,
+            "name": "Commit-0",
+            "content": ":root {\r\n  --darkShade_100: rgba(31, 32, 65, 1);\r\n  --darkShade_75: rgba(31, 32, 65, .75);\r\n  --darkShade_50: rgba(31, 32, 65, .5);\r\n  --darkShade_25: rgba(31, 32, 65, .25);\r\n  --darkShade_5: rgba(31, 32, 65, .05);\r\n  --purple: rgb(188, 156, 255);\r\n  --green: rgb(111, 207, 151);\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.logo {\r\n  margin: 30px 0 0 30px;\r\n}\r\n.logo__icon {\r\n  fill: rgba(31, 32, 65, .25);\r\n}\r\n\r\n.colors {\r\n  padding: 62px 0 0 150px;\r\n}\r\n\r\n.colors__wrapper {\r\n  display: grid;\r\n  grid-template-columns: 70px 1fr;\r\n  column-gap: 40px;\r\n  row-gap: 20px;\r\n}\r\n\r\n.colors__item {\r\n  width: 70px;\r\n  height: 70px;\r\n  border-radius: 6px;\r\n}\r\n\r\n.colors__item_darkShade {\r\n  background-color: var(--darkShade_100);\r\n}\r\n.colors__item_darkShade_75 {\r\n  background-color: var(--darkShade_75);\r\n}\r\n.colors__item_darkShade_50 {\r\n  background-color: var(--darkShade_50);\r\n}\r\n.colors__item_darkShade_25 {\r\n  background-color: var(--darkShade_25);\r\n}\r\n.colors__item_darkShade_5 {\r\n  background-color: var(--darkShade_5);\r\n}\r\n.colors__item_purple {\r\n  background-color: var(--purple);\r\n}\r\n.colors__item_green {\r\n  background-color: var(--green);\r\n}\r\n\r\n.colors__title {\r\n  font-size: 19px;\r\n  font-weight: 700;\r\n  line-height: 28px;\r\n}\r\n\r\n.colors__subtitle {\r\n  display: block;\r\n  font-weight: 400;\r\n}\r\n"
+        }
+    ]
+}

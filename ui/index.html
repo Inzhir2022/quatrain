@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>UI</title>
 </head>
@@ -12,7 +15,7 @@
 <body>
   <div class="colorsAndTypes">
     <div class="container">
-      <div class="logo">
+      <div class="colorsAndTypes__logo logo">
         <svg class="logo__icon" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
           <path d="M23.9989 32.4712C23.2224 32.4712 22.5871 31.8359 22.5871 31.0594C22.5871 25.6241 18.14 21.177 12.7047 21.177C11.9283 21.177 11.293 20.5418 11.293 19.7653C11.293 18.9888 11.9283 18.3535 12.7047 18.3535C19.7283 18.3535 25.4106 24.0359 25.4106 31.0594C25.4106 31.8359 24.7753 32.4712 23.9989 32.4712Z" />
           <path d="M36.7068 19.7653C36.7068 20.5418 36.0715 21.177 35.295 21.177C31.9421 21.177 28.9421 22.8712 27.1774 25.4476C26.7892 24.4594 26.3303 23.5418 25.7656 22.6947C28.095 20.0123 31.5186 18.3535 35.295 18.3535C36.0715 18.3535 36.7068 18.9888 36.7068 19.7653Z" />
@@ -29,41 +32,62 @@
 
         <div class="colors__wrapper">
           <div class="colors__item colors__item_darkShade_75"></div>
-          <div class="colors__title"></div>
-          <div class="colors__subtitle"></div>
+          <div class="colors__title">Dark Shade 75%
+            <span class="colors__subtitle">#1F2041</span>
+          </div>
         </div>
         <div class="colors__wrapper">
           <div class="colors__item colors__item_darkShade_50"></div>
-          <div class="colors__title"></div>
-          <div class="colors__subtitle"></div>
+          <div class="colors__title">Dark Shade 50%
+            <span class="colors__subtitle">#1F2041</span>
+          </div>
         </div>
         <div class="colors__wrapper">
           <div class="colors__item colors__item_darkShade_25"></div>
-          <div class="colors__title"></div>
-          <div class="colors__subtitle"></div>
+          <div class="colors__title">Dark Shade 25%
+            <span class="colors__subtitle">#1F2041</span>
+          </div>
         </div>
         <div class="colors__wrapper">
           <div class="colors__item colors__item_darkShade_5"></div>
-          <div class="colors__title"></div>
-          <div class="colors__subtitle"></div>
+          <div class="colors__title">Dark Shade 5%
+            <span class="colors__subtitle">#1F2041</span>
+          </div>
         </div>
         <div class="colors__wrapper">
           <div class="colors__item colors__item_purple"></div>
-          <div class="colors__title"></div>
-          <div class="colors__subtitle"></div>
+          <div class="colors__title">Purple <br>
+            <span class="colors__subtitle">#BC9CFF</span>
+          </div>
         </div>
         <div class="colors__wrapper">
           <div class="colors__item colors__item_green"></div>
-          <div class="colors__title"></div>
-          <div class="colors__subtitle"></div>
+          <div class="colors__title">Green <br>
+            <span class="colors__subtitle">#6FCF97</span>
+          </div>
         </div>
-
+      </div>
+      <div class="types">
+        <div class="types__wrapper">
+          <div class="types__text types__text_h1 types__text_darkShade_25">h1</div>
+          <h1 class="types__item title title_h1">This one is the sub-section or widget title</h1>
+        </div>
+        <div class="types__wrapper">
+          <div class="types__text types__text_h2 types__text_darkShade_25">h2</div>
+          <h2 class="types__item title title_h2">Next one is the item title inside widgets</h2>
+        </div>
+        <div class="types__wrapper">
+          <div class="types__text types__text_h3 types__text_darkShade_25">h3</div>
+          <h3 class="types__item title title_h3">This is a label or CTA text</h3>
+        </div>
+        <div class="types__wrapper">
+          <div class="types__text types__text_right types__text_darkShade_25">Body</div>
+          <div class="types__text types__text_darkShade_75">This is the body text which is used for most <br>
+            of the design, like paragraphs, lists, etc.</div>
+        </div>
       </div>
     </div>
   </div>
-
-
-
 </body>
 
 </html>
