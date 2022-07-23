@@ -1,0 +1,22 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1658549867683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658549939822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n   \"version\": \"1.0.0\",\n   \"description\": \"the second stage of the internship in Meta Lamp\",\n   \"main\": \"index.js\",\n   \"scripts\": {\n-    \"build\": \"webpack\"\n+    \"build\": \"webpack\",\n+    \"start\": \"webpack-dev-server\"\n   },\n   \"author\": \"Inzhir\",\n   \"license\": \"ISC\",\n   \"devDependencies\": {\n@@ -14,7 +15,8 @@\n     \"html-webpack-plugin\": \"^5.5.0\",\n     \"style-loader\": \"^3.3.1\",\n     \"svg-inline-loader\": \"^0.8.2\",\n     \"webpack\": \"^5.73.0\",\n-    \"webpack-cli\": \"^4.10.0\"\n+    \"webpack-cli\": \"^4.10.0\",\n+    \"webpack-dev-server\": \"^4.9.3\"\n   }\n }\n"
+                }
+            ],
+            "date": 1658549867683,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"toxin\",\n  \"version\": \"1.0.0\",\n  \"description\": \"the second stage of the internship in Meta Lamp\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"build\": \"webpack\"\n  },\n  \"author\": \"Inzhir\",\n  \"license\": \"ISC\",\n  \"devDependencies\": {\n    \"babel-loader\": \"^8.2.5\",\n    \"css-loader\": \"^6.7.1\",\n    \"html-webpack-plugin\": \"^5.5.0\",\n    \"style-loader\": \"^3.3.1\",\n    \"svg-inline-loader\": \"^0.8.2\",\n    \"webpack\": \"^5.73.0\",\n    \"webpack-cli\": \"^4.10.0\"\n  }\n}\n"
+        }
+    ]
+}

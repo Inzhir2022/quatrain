@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/scss/base/_fonts.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1658566213025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658566258884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,12 @@\n   font-weight: 400;\r\n   font-style: normal;\r\n }\r\n \r\n+@font-face {\r\n+  font-family: 'Montserrat';\r\n+  src: url('Montserrat-Bold.eot');\r\n+  src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),\r\n+       url('Montserrat-Bold.woff') format('woff');\r\n+  font-weight: 700;\r\n+  font-style: normal;\r\n+}\r\n"
+                },
+                {
+                    "date": 1658566435310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,17 @@\n @font-face {\r\n   font-family: 'Montserrat';\r\n-  src: url('Montserrat-Regular.eot');\r\n-  src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),\r\n-       url('Montserrat-Regular.woff') format('woff');\r\n+  src: url('../../fonts/Montserrat-Regular.eot');\r\n+  src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),\r\n+       url('../../fonts/Montserrat-Regular.woff') format('woff');\r\n   font-weight: 400;\r\n   font-style: normal;\r\n }\r\n \r\n @font-face {\r\n   font-family: 'Montserrat';\r\n-  src: url('Montserrat-Bold.eot');\r\n-  src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),\r\n-       url('Montserrat-Bold.woff') format('woff');\r\n+  src: url('../../fonts/Montserrat-Bold.eot');\r\n+  src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),\r\n+       url('../../fonts/Montserrat-Bold.woff') format('woff');\r\n   font-weight: 700;\r\n   font-style: normal;\r\n }\r\n"
+                }
+            ],
+            "date": 1658566213025,
+            "name": "Commit-0",
+            "content": "@font-face {\r\n  font-family: 'Montserrat';\r\n  src: url('Montserrat-Regular.eot');\r\n  src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),\r\n       url('Montserrat-Regular.woff') format('woff');\r\n  font-weight: 400;\r\n  font-style: normal;\r\n}\r\n\r\n"
+        }
+    ]
+}

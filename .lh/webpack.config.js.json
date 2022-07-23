@@ -1,0 +1,178 @@
+{
+    "sourceFile": "webpack.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 40,
+            "patches": [
+                {
+                    "date": 1658548810791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658548830222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-module.exports = {}\n\\ No newline at end of file\n+module.exports = {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658548855298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\r\n-  \r\n+  entry:\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658548882932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\r\n-  entry:\r\n+  entry: ''\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658548964409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\r\n-  entry: ''\r\n+  entry: './src/js/main.js'\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549056772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n module.exports = {\r\n-  entry: './src/js/main.js'\r\n+  entry: './src/js/main.js',\r\n+  \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549065530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n-  \r\n+  module: \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549072260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n-  module: \r\n+  module: {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549079537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n-    \r\n+    rules \r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549090315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n-    rules \r\n+    rules: []\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549126888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n-    rules: []\r\n+    rules: [test: /\\.svg$/, use: 'svg-inline-loader' ]\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549142447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n-    rules: [test: /\\.svg$/, use: 'svg-inline-loader' ]\r\n+    rules: [\r\n+      { test: /\\.svg$/, use: 'svg-inline-loader' }\r\n+    ]\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549204667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n     rules: [\r\n-      { test: /\\.svg$/, use: 'svg-inline-loader' }\r\n+      { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n+      { test: /\\.css$/, use: 'css-loader' }\r\n     ]\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549265232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n   entry: './src/js/main.js',\r\n   module: {\r\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n-      { test: /\\.css$/, use: 'css-loader' }\r\n+      { test: /\\.css$/, use: ['css-loader' ]}\r\n     ]\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549283229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n   entry: './src/js/main.js',\r\n   module: {\r\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n-      { test: /\\.css$/, use: ['css-loader' ]}\r\n+      { test: /\\.css$/, use: ['style-loader','css-loader' ]}\r\n     ]\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549343401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n   entry: './src/js/main.js',\r\n   module: {\r\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n-      { test: /\\.css$/, use: ['style-loader','css-loader' ]}\r\n+      { test: /\\.css$/, use: ['style-loader', 'css-loader'] },\r\n+      { test: /\\.(js)$/, use: 'babel-loader' }\r\n     ]\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549393350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,10 @@\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n       { test: /\\.css$/, use: ['style-loader', 'css-loader'] },\r\n       { test: /\\.(js)$/, use: 'babel-loader' }\r\n     ]\r\n+  },\r\n+  output: {\r\n+    path: path.resolve(__dirname, 'dist'),\r\n+    filename: 'index_bundle.js'\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549408520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n     ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n-    filename: 'index_bundle.js'\r\n+    filename: 'main_bundle.js'\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549628899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+const path = require('path');\r\n+\r\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n     rules: [\r\n"
+                },
+                {
+                    "date": 1658549661492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,8 @@\n     ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n-    filename: 'main_bundle.js'\r\n+    filename: 'main_bundle.js',\r\n+    filename: 'index_bundle.js'\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549685416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,7 @@\n     ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n-    filename: 'main_bundle.js',\r\n-    filename: 'index_bundle.js'\r\n+    filename: ['main_bundle.js', 'index_bundle.js']\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549694880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,7 @@\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: ['main_bundle.js', 'index_bundle.js']\r\n-  }\r\n+  },\r\n+  \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549700118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,6 @@\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: ['main_bundle.js', 'index_bundle.js']\r\n   },\r\n-  \r\n+  plugins: []\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549731838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n const path = require('path');\r\n+const HtmlWebpackPlugin = require('html-webpack-plugin');\r\n \r\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n"
+                },
+                {
+                    "date": 1658549739922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,8 @@\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: ['main_bundle.js', 'index_bundle.js']\r\n   },\r\n-  plugins: []\r\n+  plugins: [\r\n+    new HtmlWebpackPlugin()\r\n+  ]\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549790159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,6 +15,7 @@\n     filename: ['main_bundle.js', 'index_bundle.js']\r\n   },\r\n   plugins: [\r\n     new HtmlWebpackPlugin()\r\n-  ]\r\n+  ],\r\n+  mode: 'production'\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658549799880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,6 @@\n   },\r\n   plugins: [\r\n     new HtmlWebpackPlugin()\r\n   ],\r\n-  mode: 'production'\r\n+  mode: 'development'\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658550036383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n-    filename: ['main_bundle.js', 'index_bundle.js']\r\n+    filename: 'main_bundle.js'\r\n   },\r\n   plugins: [\r\n     new HtmlWebpackPlugin()\r\n   ],\r\n"
+                },
+                {
+                    "date": 1658550224360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n const path = require('path');\r\n const HtmlWebpackPlugin = require('html-webpack-plugin');\r\n+const webpack = require('webpack');\r\n \r\n module.exports = {\r\n   entry: './src/js/main.js',\r\n   module: {\r\n"
+                },
+                {
+                    "date": 1658550672206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   entry: './src/js/main.js',\r\n   module: {\r\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n-      { test: /\\.css$/, use: ['style-loader', 'css-loader'] },\r\n+      { test: /\\.css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },\r\n       { test: /\\.(js)$/, use: 'babel-loader' }\r\n     ]\r\n   },\r\n   output: {\r\n"
+                },
+                {
+                    "date": 1658550748076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,6 +17,7 @@\n   },\r\n   plugins: [\r\n     new HtmlWebpackPlugin()\r\n   ],\r\n-  mode: 'development'\r\n+  mode: 'development',\r\n+  watch: true\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658551486046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n   module: {\r\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n       { test: /\\.css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },\r\n-      { test: /\\.(js)$/, use: 'babel-loader' }\r\n+      { test: /\\.(js)$/, use: 'babel-loader' },\r\n+      { test: /\\.txt$/i, use: 'raw-loader'}\r\n     ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n"
+                },
+                {
+                    "date": 1658551971138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n       { test: /\\.css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },\r\n       { test: /\\.(js)$/, use: 'babel-loader' },\r\n-      { test: /\\.txt$/i, use: 'raw-loader'}\r\n+      { test: /\\.txt$/i, use: 'raw-loader' },\r\n+      { test: /\\.(gif|png|jpe?g|svg)$/i, use: [ 'file-loader',\r\n+    {\r\n     ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n"
+                },
+                {
+                    "date": 1658552056156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,19 @@\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n       { test: /\\.css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },\r\n       { test: /\\.(js)$/, use: 'babel-loader' },\r\n       { test: /\\.txt$/i, use: 'raw-loader' },\r\n-      { test: /\\.(gif|png|jpe?g|svg)$/i, use: [ 'file-loader',\r\n-    {\r\n-    ]\r\n+      {\r\n+        test: /\\.(gif|png|jpe?g|svg)$/i, use: ['file-loader',\r\n+          {\r\n+            loader: 'image-webpack-loader',\r\n+            options: {\r\n+              bypassOnDebug: true, // webpack@1.x\r\n+              disable: true, // webpack@2.x and newer\r\n+            },\r\n+          },\r\n+        ]\r\n+      }\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: 'main_bundle.js'\r\n"
+                },
+                {
+                    "date": 1658552125511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n               disable: true, // webpack@2.x and newer\r\n             },\r\n           },\r\n         ]\r\n-      }\r\n+      },\r\n+    ]\r\n   },\r\n   output: {\r\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: 'main_bundle.js'\r\n"
+                },
+                {
+                    "date": 1658552395826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n     rules: [\r\n       { test: /\\.svg$/, use: 'svg-inline-loader' },\r\n       { test: /\\.css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },\r\n       { test: /\\.(js)$/, use: 'babel-loader' },\r\n+      { test: /\\.pug$/, use: [{ loader: 'simple-pug-loader' }] },\r\n       { test: /\\.txt$/i, use: 'raw-loader' },\r\n       {\r\n         test: /\\.(gif|png|jpe?g|svg)$/i, use: ['file-loader',\r\n           {\r\n"
+                },
+                {
+                    "date": 1658563409449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: 'main_bundle.js'\r\n   },\r\n   plugins: [\r\n-    new HtmlWebpackPlugin()\r\n+    new HtmlWebpackPlugin({ template: './src/index.html' })\r\n   ],\r\n   mode: 'development',\r\n   watch: true\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658563510446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,7 +30,6 @@\n   },\r\n   plugins: [\r\n     new HtmlWebpackPlugin({ template: './src/index.html' })\r\n   ],\r\n-  mode: 'development',\r\n-  watch: true\r\n+  mode: 'development'\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658563585813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,7 @@\n   },\r\n   plugins: [\r\n     new HtmlWebpackPlugin({ template: './src/index.html' })\r\n   ],\r\n-  mode: 'development'\r\n+  mode: 'development',\r\n+  watch: true\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658563621313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: 'main_bundle.js'\r\n   },\r\n   plugins: [\r\n-    new HtmlWebpackPlugin({ template: './src/index.html' })\r\n+    new HtmlWebpackPlugin({ template: 'index.html' })\r\n   ],\r\n   mode: 'development',\r\n   watch: true\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658563813467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     path: path.resolve(__dirname, 'dist'),\r\n     filename: 'main_bundle.js'\r\n   },\r\n   plugins: [\r\n-    new HtmlWebpackPlugin({ template: 'index.html' })\r\n+    new HtmlWebpackPlugin({ template: './src/index.html' })\r\n   ],\r\n   mode: 'development',\r\n   watch: true\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1658548810791,
+            "name": "Commit-0",
+            "content": "module.exports = {}"
+        }
+    ]
+}

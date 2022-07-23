@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/scss/style.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1658565649063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658565679494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-@import 'base/variables.scss';\n\\ No newline at end of file\n+@import 'base/variables.scss';\r\n+\r\n"
+                },
+                {
+                    "date": 1658565719773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,5 @@\n @import 'base/variables.scss';\r\n \r\n+body {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565918269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n @import 'base/variables.scss';\r\n \r\n body {\r\n-  \r\n+  font-family: 'Montserrat', sans-serif;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565964704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,9 @@\n @import 'base/variables.scss';\r\n \r\n+html {\r\n+  font-size: 20px;\r\n+}\r\n+\r\n body {\r\n   font-family: 'Montserrat', sans-serif;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658566475767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n @import 'base/variables.scss';\r\n+@import 'base/fonts.scss';\r\n \r\n html {\r\n   font-size: 20px;\r\n }\r\n"
+                }
+            ],
+            "date": 1658565649063,
+            "name": "Commit-0",
+            "content": "@import 'base/variables.scss';"
+        }
+    ]
+}

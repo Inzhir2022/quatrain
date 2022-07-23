@@ -1,0 +1,86 @@
+{
+    "sourceFile": "src/scss/base/_variables.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1658564883021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658564951747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,7 @@\n-$\n\\ No newline at end of file\n+$darkShade_100: rgba(31, 32, 65, 1);\r\n+$darkShade_75: rgba(31, 32, 65, .75);\r\n+$darkShade_50: rgba(31, 32, 65, .5);\r\n+$darkShade_25: rgba(31, 32, 65, .25);\r\n+$darkShade_5: rgba(31, 32, 65, .05);\r\n+$purple: rgb(188, 156, 255);\r\n+$green: rgb(111, 207, 151);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658564966698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n+//Colors\r\n $darkShade_100: rgba(31, 32, 65, 1);\r\n $darkShade_75: rgba(31, 32, 65, .75);\r\n $darkShade_50: rgba(31, 32, 65, .5);\r\n $darkShade_25: rgba(31, 32, 65, .25);\r\n $darkShade_5: rgba(31, 32, 65, .05);\r\n $purple: rgb(188, 156, 255);\r\n\\ No newline at end of file\n-$green: rgb(111, 207, 151);\n+$green: rgb(111, 207, 151);\r\n+\r\n+//Types\r\n"
+                },
+                {
+                    "date": 1658565014747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n $darkShade_5: rgba(31, 32, 65, .05);\r\n $purple: rgb(188, 156, 255);\r\n $green: rgb(111, 207, 151);\r\n \r\n-//Types\n\\ No newline at end of file\n+//Types\r\n+$title\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565186894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n //Colors\r\n-$darkShade_100: rgba(31, 32, 65, 1);\r\n-$darkShade_75: rgba(31, 32, 65, .75);\r\n-$darkShade_50: rgba(31, 32, 65, .5);\r\n-$darkShade_25: rgba(31, 32, 65, .25);\r\n-$darkShade_5: rgba(31, 32, 65, .05);\r\n+$darkShade-100: rgba(31, 32, 65, 1);\r\n+$darkShade-75: rgba(31, 32, 65, .75);\r\n+$darkShade-50: rgba(31, 32, 65, .5);\r\n+$darkShade-25: rgba(31, 32, 65, .25);\r\n+$darkShade-5: rgba(31, 32, 65, .05);\r\n\\ No newline at end of file\n $purple: rgb(188, 156, 255);\r\n $green: rgb(111, 207, 151);\r\n \r\n //Types\r\n-$title\n+$fontSize-title-1: \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565221321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n $purple: rgb(188, 156, 255);\r\n $green: rgb(111, 207, 151);\r\n \r\n //Types\r\n-$fontSize-title-1: \n\\ No newline at end of file\n+$fontSize-title-1: 24px;\r\n+$lineHeight-title-1: \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565243843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,5 @@\n $green: rgb(111, 207, 151);\r\n \r\n //Types\r\n $fontSize-title-1: 24px;\r\n-$lineHeight-title-1: \n\\ No newline at end of file\n+$lineHeight-title-1: 29.26px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565283996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,7 @@\n $green: rgb(111, 207, 151);\r\n \r\n //Types\r\n $fontSize-title-1: 24px;\r\n-$lineHeight-title-1: 29.26px;\n\\ No newline at end of file\n+$lineHeight-title-1: 29.26px;\r\n+$fontSize-title-2: 24px;\r\n+$lineHeight-title-2: 29.26px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565294965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,6 @@\n \r\n //Types\r\n $fontSize-title-1: 24px;\r\n $lineHeight-title-1: 29.26px;\r\n-$fontSize-title-2: 24px;\r\n+$fontSize-title-2: 19px;\r\n $lineHeight-title-2: 29.26px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565316028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,7 @@\n //Types\r\n $fontSize-title-1: 24px;\r\n $lineHeight-title-1: 29.26px;\r\n $fontSize-title-2: 19px;\r\n-$lineHeight-title-2: 29.26px;\n\\ No newline at end of file\n+$lineHeight-title-2: 23.16px;\r\n+$fontSize-title-3: 19px;\r\n+$lineHeight-title-3: 23.16px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565326093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n $fontSize-title-1: 24px;\r\n $lineHeight-title-1: 29.26px;\r\n $fontSize-title-2: 19px;\r\n $lineHeight-title-2: 23.16px;\r\n-$fontSize-title-3: 19px;\r\n+$fontSize-title-3: 12px;\r\n $lineHeight-title-3: 23.16px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565336951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,5 @@\n $lineHeight-title-1: 29.26px;\r\n $fontSize-title-2: 19px;\r\n $lineHeight-title-2: 23.16px;\r\n $fontSize-title-3: 12px;\r\n-$lineHeight-title-3: 23.16px;\n\\ No newline at end of file\n+$lineHeight-title-3: 14.63px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565369745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,8 @@\n $lineHeight-title-1: 29.26px;\r\n $fontSize-title-2: 19px;\r\n $lineHeight-title-2: 23.16px;\r\n $fontSize-title-3: 12px;\r\n-$lineHeight-title-3: 14.63px;\n\\ No newline at end of file\n+$lineHeight-title-3: 14.63px;\r\n+\r\n+$fontSize-main-text: 12px;\r\n+$lineHeight-main-text: 14.63px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565386190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n $lineHeight-title-2: 23.16px;\r\n $fontSize-title-3: 12px;\r\n $lineHeight-title-3: 14.63px;\r\n \r\n-$fontSize-main-text: 12px;\r\n-$lineHeight-main-text: 14.63px;\n\\ No newline at end of file\n+$fontSize-main-text: 14px;\r\n+$lineHeight-main-text: 24px;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658565474609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,14 @@\n $purple: rgb(188, 156, 255);\r\n $green: rgb(111, 207, 151);\r\n \r\n //Types\r\n-$fontSize-title-1: 24px;\r\n-$lineHeight-title-1: 29.26px;\r\n+$fontSize-title-1: 1.2rem;\r\n+$lineHeight-title-1: 1.463rem;\r\n $fontSize-title-2: 19px;\r\n $lineHeight-title-2: 23.16px;\r\n $fontSize-title-3: 12px;\r\n $lineHeight-title-3: 14.63px;\r\n \r\n\\ No newline at end of file\n $fontSize-main-text: 14px;\r\n-$lineHeight-main-text: 24px;\n+$lineHeight-main-text: 24px;\r\n+\r\n"
+                },
+                {
+                    "date": 1658565490465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,12 @@\n \r\n //Types\r\n $fontSize-title-1: 1.2rem;\r\n $lineHeight-title-1: 1.463rem;\r\n-$fontSize-title-2: 19px;\r\n+$fontSize-title-2: 0.95rem;\r\n $lineHeight-title-2: 23.16px;\r\n $fontSize-title-3: 12px;\r\n $lineHeight-title-3: 14.63px;\r\n \r\n $fontSize-main-text: 14px;\r\n $lineHeight-main-text: 24px;\r\n+\r\n"
+                },
+                {
+                    "date": 1658565532704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n //Types\r\n $fontSize-title-1: 1.2rem;\r\n $lineHeight-title-1: 1.463rem;\r\n $fontSize-title-2: 0.95rem;\r\n-$lineHeight-title-2: 23.16px;\r\n-$fontSize-title-3: 12px;\r\n-$lineHeight-title-3: 14.63px;\r\n+$lineHeight-title-2: 1.158rem;\r\n+$fontSize-title-3: 0.6rem;\r\n+$lineHeight-title-3: 0.7315rem;\r\n \r\n-$fontSize-main-text: 14px;\r\n-$lineHeight-main-text: 24px;\r\n+$fontSize-main-text: 0.7rem;\r\n+$lineHeight-main-text: 1.2rem;\r\n \r\n"
+                },
+                {
+                    "date": 1658565583051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,4 +17,7 @@\n \r\n $fontSize-main-text: 0.7rem;\r\n $lineHeight-main-text: 1.2rem;\r\n \r\n+//Font-weight\r\n+$fontWeight-regular: 400;\r\n+$fontWeight-bold: 700;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1658564883021,
+            "name": "Commit-0",
+            "content": "$"
+        }
+    ]
+}

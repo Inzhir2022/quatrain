@@ -1,0 +1,72 @@
+:root {
+  --darkShade_100: rgba(31, 32, 65, 1);
+  --darkShade_75: rgba(31, 32, 65, .75);
+  --darkShade_50: rgba(31, 32, 65, .5);
+  --darkShade_25: rgba(31, 32, 65, .25);
+  --darkShade_5: rgba(31, 32, 65, .05);
+  --purple: rgb(188, 156, 255);
+  --green: rgb(111, 207, 151);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 30px 0 0 30px;
+}
+.logo__icon {
+  fill: rgba(31, 32, 65, .25);
+}
+
+.colors {
+  padding: 62px 0 0 150px;
+ 
+}
+
+.colors__wrapper {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.colors__item {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.colors__item_darkShade {
+  background-color: var(--darkShade_100);
+}
+.colors__item_darkShade_75 {
+  background-color: var(--darkShade_75);
+}
+.colors__item_darkShade_50 {
+  background-color: var(--darkShade_50);
+}
+.colors__item_darkShade_25 {
+  background-color: var(--darkShade_25);
+}
+.colors__item_darkShade_5 {
+  background-color: var(--darkShade_5);
+}
+.colors__item_purple {
+  background-color: var(--purple);
+}
+.colors__item_green {
+  background-color: var(--green);
+}
+
+.colors__title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.colors__subtitle {
+  display: block;
+  font-weight: 400;
+}
