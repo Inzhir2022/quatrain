@@ -1,0 +1,35 @@
+.contacts {
+  &__subheader {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  &__list {
+    margin: 23px 0 80px;
+    list-style-type: none;
+  }
+  &__link {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: black;
+  }
+  .fa-solid.fa-envelope, .fa-brands.fa-vk, .fa-brands.fa-telegram {
+    display: inline-block;
+    margin-right: 12px;
+    transition: all 0.5s ease-in-out;
+  }
+  .fa-solid.fa-envelope:hover, .fa-brands.fa-vk:hover, .fa-brands.fa-telegram:hover {
+    color: #89472E;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+
+
+
+
+

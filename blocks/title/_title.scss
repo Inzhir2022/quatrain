@@ -1,0 +1,16 @@
+.title {
+  font-family: 'Kurale', serif;
+  text-decoration: underline;
+  font-weight: 400;
+  &_main {
+    font-size: 33px;
+    height: max-content;
+  }
+  &_additional {
+    font-size: 28px;
+    line-height: 41px;
+    text-align: center;
+  }
+}
+
+

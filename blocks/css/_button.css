@@ -1,0 +1,35 @@
+.btn {
+  background-color: #D2A08C;
+  border: 1.5px solid #89472E;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: #eab6a1;
+  transition: all 0.5s ease-in-out;
+}
+.btn_long, .btn_short {
+  height: 50px;
+  line-height: 2.15;
+}
+.btn_long {
+  width: 197px;
+}
+.btn_short {
+  width: 50px;
+}
+.btn_disabled {
+  cursor: auto;
+}
+.btn_subscription {
+  width: 153px;
+  height: 40px;
+}
+.btn .fa-solid.fa-repeat {
+  font-size: 17px;
+}

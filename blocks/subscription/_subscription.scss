@@ -1,0 +1,23 @@
+.subscription {
+
+  &__title {
+    margin-top: 100px;
+    margin-bottom: 26px;
+  }
+  &__subheader {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  &__field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    min-height: 150px;
+    background-color: #D2B48C;
+  }
+}
+
+
+

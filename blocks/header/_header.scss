@@ -1,0 +1,21 @@
+
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 30px 0;
+  background-color: #D2B48C;
+  z-index: 10;
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+  }
+  &__hamburger {
+    display: none;
+  }
+}
+
+@import './menu/menu';
+

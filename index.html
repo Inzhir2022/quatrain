@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--normalize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Quatrain Project</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="container">
+        <ul class="header__menu menu">
+          <li class="menu__item"><a href="#quatrain" class="menu__link active">случайное четверостишие</a></li>
+          <li class="menu__item"><a href="#about" class="menu__link">О проекте</a></li>
+          <li class="menu__item"><a href="#subscription" class="menu__link">Подписка</a></li>
+          <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="header__hamburger hamburger">
+        <span class="hamburger__item"></span>
+        <span class="hamburger__item"></span>
+        <span class="hamburger__item"></span>
+      </div>
+    </nav>
+  </header>
+  <section class="quatrain" id="quatrain">
+    <div class="quatrain__container container">
+      <div class="quatrain__column quatrain__column_1">
+        <img src="img/quatrain_bg.jpg" alt="oops" class="quatrain__img">
+      </div>
+      <div class="quatrain__column quatrain__column_2">
+        <h1 class="quatrain__title title title_main">Случайное четверостишие</h1>
+        <p class="quatrain__subheader">Чтобы получить случайное четверостишие, нажмите на кнопку:</p>
+        <div class="quatrain__wrapper">
+          <button type="button" class="quatrain__btn btn btn_long">получить четверостишие </button>
+          <button type="button" class="quatrain__btn btn btn_short btn_disabled"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="about__title title title_additional"> О проекте</h2>
+      <p class="about__text text">Nostra hac vivamus id cras commodo ligula auctor molestie dictum nullam. Hendrerit nascetur dolor ante natoque conubia metus pretium. Tincidunt porttitor quam in natoque vulputate massa etiam. Nisl rhoncus platea vitae pellentesque vivamus aptent tellus finibus dictumst est cursus. Semper curae consectetur ac consequat diam dictumst proin. Quisque scelerisque letius nisl dictumst tortor justo nec.</p>
+      <p class="about__text text">Lorem ipsum dolor sit amet pharetra. Posuere consequat interdum auctor imperdiet tristique dis. Erat suspendisse tristique tempus interdum ipsum hac posuere volutpat quam. Accumsan porttitor habitasse dignissim vel non porta mi purus molestie. Faucibus dui quisque curabitur conubia risus finibus urna.
+      </p>
+      <p class="about__text text">Fermentum eleifend sem aliquam a sollicitudin arcu metus faucibus. Suscipit tempor sed per vehicula eu fusce. Aptent pretium ad aliquam aliquet volutpat at accumsan nulla natoque euismod dis. Scelerisque bibendum elit ultricies senectus mauris non placerat sapien.</p>
+    </div>
+  </section>
+  <section class="subscription" id="subscription">
+    <h2 class="subscription__title title title_additional"> Подписка</h2>
+    <p class="subscription__subheader">Вы можете подписаться на нашу рассылку, заполнив следующую форму: </p>
+    <div class="subscription__field">
+      <form action="#" method="POST" class="subscription__form form">
+        <input type="email" class="form__input" name="email" placeholder="Введите email">
+        <button type="submit" class="form__btn btn">подписаться</button>
+      </form>
+
+    </div>
+  </section>
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="contacts__title title title_additional"> Контакты</h2>
+      <p class="contacts__subheader">Мы всегда на связи с Вами:</p>
+      <ul class="contacts__list">
+        <li class="contacts__item"><a href="mailto:quatrain@gmail.com" class="contacts__link" target="_blank"><i class="fa-solid fa-envelope"></i>quatrain@gmail.com</a></li>
+        <li class="contacts__item"><a href="#" class="contacts__link" target="_blank"><i class="fa-brands fa-vk"></i>vk.com/quantrain</a></li>
+        <li class="contacts__item"><a href="#" class="contacts__link" target="_blank"><i class="fa-brands fa-telegram"></i>https://t.me/quatrain</a></li>
+      </ul>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__info">&copy;Inzhir91 2022г.</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/063f8a86cf.js" crossorigin="anonymous"></script>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>

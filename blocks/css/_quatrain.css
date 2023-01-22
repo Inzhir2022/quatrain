@@ -1,0 +1,30 @@
+.quatrain__container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 100px;
+  min-height: 515px;
+}
+.quatrain__img {
+  max-width: 340px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.quatrain__title {
+  margin: 0;
+}
+.quatrain__subheader {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.quatrain__wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+.quatrain__btn {
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

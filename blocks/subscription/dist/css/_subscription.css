@@ -1,0 +1,21 @@
+.subscription__title {
+  margin-top: 100px;
+  margin-bottom: 26px;
+}
+
+.subscription__subheader {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.subscription__field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  min-height: 150px;
+  background-color: #D2B48C;
+}
+
+/*# sourceMappingURL=_subscription.css.map */

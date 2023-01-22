@@ -1,0 +1,27 @@
+.menu {
+  padding: 0;
+  list-style-type: none;
+  &__item {
+    margin-right: 50px;
+  }
+  &__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1.5px solid transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  &__link, &__link:hover, &__link:visited, &__link:link, &__link:active {
+    color: rgb(0,0,0);
+  }
+  &__link:hover {
+    border-bottom: 1px solid rgb(0,0,0);
+    transition: all 0.4s ease-in-out;
+  }
+  &__link.active {
+    border-bottom: 1.5px solid rgb(0,0,0);
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+
